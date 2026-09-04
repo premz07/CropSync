@@ -1,0 +1,17 @@
+
+> cropsync-prototype@1.0.0 dev
+> vite --host 127.0.0.1
+
+failed to load config from C:\Users\premz\Documents\Codex\2026-09-04\build-x20-2\vite.config.js
+error when starting dev server:
+Error: spawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (C:\Users\premz\Documents\Codex\2026-09-04\build-x20-2\node_modules\esbuild\lib\main.js:1981:29)
+    at build (C:\Users\premz\Documents\Codex\2026-09-04\build-x20-2\node_modules\esbuild\lib\main.js:1879:26)
+    at bundleConfigFile (file:///C:/Users/premz/Documents/Codex/2026-09-04/build-x20-2/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:54374:24)
+    at async bundleAndLoadConfigFile (file:///C:/Users/premz/Documents/Codex/2026-09-04/build-x20-2/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:54358:19)
+    at async loadConfigFromFile (file:///C:/Users/premz/Documents/Codex/2026-09-04/build-x20-2/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:54321:44)
+    at async resolveConfig (file:///C:/Users/premz/Documents/Codex/2026-09-04/build-x20-2/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:53829:24)
+    at async _createServer (file:///C:/Users/premz/Documents/Codex/2026-09-04/build-x20-2/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:43821:18)
+    at async CAC.<anonymous> (file:///C:/Users/premz/Documents/Codex/2026-09-04/build-x20-2/node_modules/vite/dist/node/cli.js:750:20)
